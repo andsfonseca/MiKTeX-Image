@@ -3,7 +3,7 @@
 # FROM ubuntu:focal
 
 # B) from Microsoft
-ARG VARIANT="jammy"
+ARG VARIANT="focal"
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-${VARIANT}
 
 # 2. Install Packages
